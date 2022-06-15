@@ -1,0 +1,136 @@
+.right {
+    position:relative;
+    left: 1100px;
+
+    font-size: small;
+}
+
+.left {
+    position: relative;
+    left: 150px;
+
+    font-size: small;
+    text-decoration: none;
+    color: black;
+}
+
+.sign {
+    text-decoration: none;
+    color: green;
+}
+
+.start {
+    text-decoration: none;
+    color: green;
+
+    padding: 2px;
+    border: solid 1px;
+}
+
+.headImg {
+    height: 500px;
+    width: 500px;
+
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.headImg:hover {
+    opacity: 1.0;
+    background-color: black;
+    padding: 10px;
+}
+
+#belowImg {
+    font-size: small;
+
+    display: block;
+    width: 500px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 35px;
+
+}
+
+.navBar > a {
+
+    text-decoration: none;
+    color: gray;
+
+    font-size: small;
+
+}
+
+.center {
+    width: fit-content;
+    margin: auto;
+}
+
+.mainBody {
+    padding: 25px;
+    width: 500px;
+
+    margin: auto;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+h2 {
+    position: relative;
+    right: 210px;
+    font-size: 125%;
+}
+
+h1 {
+    font-size: x-large;
+    position: relative;
+    right: 50px;
+}
+
+.moreArts {
+    position:relative;
+
+    left: 440px;
+}
+
+.moreArts > p {
+    font-size: small;
+    margin-bottom: 0;
+}
+
+.moreArts > li {
+    font-size: small;
+}
+
+.bleft {
+    position: relative;
+
+    left: 150px;
+    font-size: small;
+
+    text-decoration: none;
+    color: rgb(0,0,0);
+}
+
+.bright {
+    position: relative;
+
+    left: 1100px;
+    font-size: small;
+
+    text-decoration: none;
+    color: gray;
+}

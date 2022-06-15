@@ -1,0 +1,164 @@
+.homepage #catAbb,
+.homepage #go,
+.homepage .leftlinks #cl_app_beta,
+.no-js,
+p.more {
+  display: none;
+}
+
+#logo {
+  font-size: 2.5rem;
+}
+
+.homepage-search .querybox {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 2px solid #464646;
+  font-size: 16px;
+}
+
+.menu.collapsible > li {
+  cursor: pointer;
+}
+
+.menu.collapsible > li.expand.s ul {
+  display: block;
+}
+
+.menu.collapsible > li ul {
+  display: none;
+}
+
+/* Your code here */
+
+.homepage {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  color: #464646;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+}
+
+ul > li {
+  list-style: none;
+}
+
+a:hover {
+  font-weight: bold;
+  color: #800080;
+}
+
+a:visited {
+  color: #800080;
+}
+
+a > span:hover {
+  font-weight: bold;
+  color: #800080;
+}
+
+.page-container {
+  max-width: 1200px;
+}
+
+#leftbar, #center, #rightbar {
+ float: left;
+
+ padding-top: 0;
+ padding-bottom: 0;
+ padding-left: 30px;
+ padding-right: 30px;
+
+ box-sizing: border-box;
+}
+
+footer {
+  clear: both;
+}
+
+#leftbar, #rightbar {
+  width: 25%;
+}
+
+#center {
+  width: 50%;
+  border: solid 1px #464646;
+  border-radius: 10px;
+}
+
+#center > div {
+  float: left;
+  width: 33%;
+}
+
+#topban h2 {
+  text-align: center;
+}
+
+#topban h2::before {
+  content: "☮ ";
+}
+
+#topban h2::after {
+  content: " ☮";
+}
+
+#topban h2:hover {
+  color: #800080;
+  background-color: aquamarine;
+}
+
+ul.clfooter {
+  text-align: center;
+  border-top: solid 1px #464646;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+H4.ban::before {
+  content: '☮';
+}
+
+.cal td {
+  border: solid 1px #333;
+  text-align: center;
+}
+
+.cal td:hover {
+  background-color: #800080;
+}
+
+.cal td:hover a {
+  color: lightblue;
+}
+
+.cal td.past {
+  color: rgba(0,0,0,0.5);
+}
+
+.cal td.today {
+  background-color: #800080;
+}
+
+.cal td.today a{
+  color: white;
+}
+
+table.cal {
+  border-collapse: collapse;
+}
+
+.cal a {
+  color: blue;
+  font-weight: bold;
+}
